@@ -55,6 +55,6 @@ Integrate with novel page to unlock bonus content
 
 🚉 Try the Generator
 
-🔗 Live Demo Link (Coming Soon)
+[🔗 Live Demo Link](https://marceldwill.github.io/Identity_generator/)
 
 Let the train take you somewhere new. Every ticket tells a story.
