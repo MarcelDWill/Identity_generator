@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Identity Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ticket-container">
+
+        <header class="ticket-header">
+            <div class="header-left">
+                <span class="brand-name">IMAGINARY RAILWAYS</span>
+                <span class="ticket-class" id="ticket-type-display">CLASS</span>
+            </div>
+            <div class="header-right">
+                <span class="ticket-id" id="ticket-id-display">ID: 000000</span>
+                <span class="ticket-date" id="date-display">DATE</span>
+            </div>
+        </header>
+
+        <div class="ticket-body">
+            <div class="route-info">
+                <div class="station">
+                    <span class="label">FROM</span>
+                    <h2 id="origin-display">ORIGIN</h2>
+                </div>
+                <div class="arrow">➔</div>
+                <div class="station">
+                    <span class="label">TO</span>
+                    <h2 id="destination-display">DESTINATION</h2>
+                </div>
+            </div>
+
+            <div class="passenger-info">
+                <div class="passenger-name">
+                    <span class="label">PASSENGER ALIAS</span>
+                    <h1 id="alias-display">NAME</h1>
+                    <h3 id="emotion-display" class="ticket-emotion">...</h3>
+                </div>
+                <div class="seat-info">
+                    <span class="label">SEAT</span>
+                    <h2 id="seat-display">--</h2>
+                </div>
+            </div>
+
+            <div class="details-section">
+                <p class="bio-line"><span class="label">BIO: </span><span id="bio-display">...</span></p>
+                <div class="detail-row">
+                    <div class="col">
+                        <span class="label">LUGGAGE</span>
+                        <p id="luggage-display">...</p>
+                    </div>
+                    <div class="col">
+                        <span class="label">COMPANION</span>
+                        <p id="companion-display">...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="ticket-footer">
+            <div class="barcode">||| || ||| | |||| ||</div>
+            <button id="generate-btn">ISSUE NEW TICKET</button>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
